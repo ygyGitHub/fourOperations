@@ -1,0 +1,19 @@
+{
+  "name": "ygy_fouroperations",
+  "version": "1.0.2",
+  "description": "四则运算与数据处理",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "author": "ygy",
+  "license": "ISC",
+  "dependencies": {
+    "js-big-decimal": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.9"
+  }
+}

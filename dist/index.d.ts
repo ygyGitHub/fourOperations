@@ -1,0 +1,13 @@
+declare function fourOperationsResult(calculationExpression: string, float?: number, round?: boolean): string;
+declare function negate(str: string): string;
+declare function ceil(str: string): string;
+declare function floor(str: string): string;
+declare function getPrettyValue(str: string, digits?: number, separator?: string): string;
+declare function round(str: string, float?: number): string;
+declare function modulus(str: string, str1: string): string;
+declare function add(str: string, str1: string): string;
+declare function subtract(str: string, str1: string): string;
+declare function multiply(str: string, str1: string): string;
+declare function divide(str: string, str1: string, float?: any): string;
+declare function compareTo(str: string, str1: string): number;
+export { fourOperationsResult, negate, ceil, floor, getPrettyValue, round, modulus, add, subtract, multiply, divide, compareTo, };
